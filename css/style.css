@@ -12576,8 +12576,8 @@ a:hover {
 }
 .flickity-page-dots .dot:before {
   content: "";
-  width: 100%;
-  height: 3px;
+  width: 30px;
+  height: 30px;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -12593,7 +12593,7 @@ a:hover {
   opacity: 1;
 }
 .flickity-page-dots .dot.is-selected:before {
-  height: 3px;
+  /* height: 3px; */
   -webkit-transform: translateY(0);
   -ms-transform: translateY(0);
   transform: translateY(0);
@@ -12783,6 +12783,8 @@ a:hover {
     opacity: 1;
   }
 }
+
+/* ---------Hacer scroll------------- */
 @media (min-width: 320px) {
   html.touchevents,
   html.touchevents #smooth-scroll-define-here {
@@ -12796,6 +12798,9 @@ a:hover {
   html.touchevents [data-css-anim="fadeIn"] {
     opacity: 1;
   }
+}
+.flickity-page-dots {
+  padding: 20px;
 }
 @media (max-width: 768px) {
   .scrollbar-track-y {
@@ -12834,6 +12839,7 @@ a:hover {
     border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
     color: #fff;
+
     text-align: center;
     text-decoration: none;
     -webkit-transition: all 0.5s ease;
@@ -12874,15 +12880,6 @@ a:hover {
     padding: 0;
   }
 }
-/* Media query que permita hacer scroll */
-
-/* @media (min-width: 320px) {
-  html.touchevents,
-  html.touchevents #smooth-scroll-define-here {
-    overflow: scroll;
-  }
-} */
-/* ----------------------- */
 @media (max-width: 320px) {
   h2 {
     font-size: 30px;
