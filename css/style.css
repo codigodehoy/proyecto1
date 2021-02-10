@@ -12783,7 +12783,7 @@ a:hover {
     opacity: 1;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 320px) {
   html.touchevents,
   html.touchevents #smooth-scroll-define-here {
     position: relative;
@@ -12874,6 +12874,15 @@ a:hover {
     padding: 0;
   }
 }
+/* Media query que permita hacer scroll */
+
+/* @media (min-width: 320px) {
+  html.touchevents,
+  html.touchevents #smooth-scroll-define-here {
+    overflow: scroll;
+  }
+} */
+/* ----------------------- */
 @media (max-width: 320px) {
   h2 {
     font-size: 30px;
