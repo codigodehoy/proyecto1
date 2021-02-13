@@ -12574,6 +12574,7 @@ a:hover {
   transition: all 0.5s ease;
   overflow: hidden;
 }
+/* -------------Carrusel----------------- */
 .flickity-page-dots .dot:before {
   content: "";
   width: 30px;
@@ -12783,11 +12784,8 @@ a:hover {
     opacity: 1;
   }
 }
-<<<<<<< HEAD
-=======
 
 /* ---------Hacer scroll------------- */
->>>>>>> mobil
 @media (min-width: 320px) {
   html.touchevents,
   html.touchevents #smooth-scroll-define-here {
@@ -12883,15 +12881,6 @@ a:hover {
     padding: 0;
   }
 }
-/* Media query que permita hacer scroll */
-
-/* @media (min-width: 320px) {
-  html.touchevents,
-  html.touchevents #smooth-scroll-define-here {
-    overflow: scroll;
-  }
-} */
-/* ----------------------- */
 @media (max-width: 320px) {
   h2 {
     font-size: 30px;
